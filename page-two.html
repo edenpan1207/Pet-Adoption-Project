@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>毛小孩認養平台</title>
+    <link rel="shortcut icon" href="images/bon.ico">
+    <meta name='description' content='Pet Adoption Website' />
+    <meta property="og:title" content="毛小孩" />
+    <meta property="og:description" content="Pet Adoption Website">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.hexschool.com/" />
+    <meta property="og:image" content="images/1480342853_Dog.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <link rel="stylesheet" href="css/themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header">
+            <h1 class="logo">
+               <a href="#" class="logo-word"><img src="images/1480342853_Dog.png" alt="logo" /> 毛小孩認養平台</a>
+                <p>你看見浪浪<br>浪浪看見一個家</p>
+                <hr>
+            </h1>
+        </div>
+        <div class="content">
+            <div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider">
+                    <img src="images/浪1.JPG" data-thumb="images/浪1.JPG" alt="浪1" />
+                    <img src="images/浪2.jpg" data-thumb="images/浪2.jpg" alt="浪2" />
+                    <img src="images/浪3.jpg" data-thumb="images/浪3.jpg" alt="浪3" />
+                    <img src="images/浪4.jpg" data-thumb="images/浪4.jpg" alt="浪4" />
+                </div>
+                </div>
+
+                <div class="main">
+                    <h2>
+            ＜ 請填寫以下資訊<span>尋找夢想中的毛小孩喔！＞</span></h2>
+                    <p>Step1. 點選所在地區</p>
+                    <ul class="menu-location">
+                        <li>
+                            <a href="#">北部地區點這裡</a>
+                            <form action="">
+                                <h3>請選擇所在縣市：</h3>
+                                <select name="locat" id="locat-n">
+                                    <option value="none" selected>none</option>
+                                    <option value="臺北市">臺北市</option>
+                                    <option value="新北市">新北市</option>
+                                    <option value="桃園市">桃園市</option>
+                                    <option value="新竹市">新竹市</option>
+                                    <option value="新竹縣">新竹縣</option>
+                                    <option value="苗栗縣">苗栗縣</option>
+                                </select>
+                            </form>
+                        </li>
+                        <li>
+                            <a href="#">中部地區點這裡</a>
+                            <form action="">
+                                <h3>請選擇所在縣市：</h3>
+                                <select name="locat" id="locat-m">
+                                    <option value="none" selected>none</option>
+                                    <option value="臺中市">臺中市</option>
+                                    <option value="彰化縣">彰化縣</option>
+                                    <option value="南投縣">南投縣</option>
+                                    <option value="雲林縣">雲林縣</option>
+                                </select>
+                            </form>
+                        </li>
+                        <li>
+                            <a href="#">南部地區點這裡</a>
+                            <form action="">
+                                <h3>請選擇所在縣市：</h3>
+                                <select name="locat" id="locat-s">
+                                    <option value="none" selected>none</option>
+                                    <option value="嘉義市">嘉義市</option>
+                                    <option value="嘉義縣">嘉義縣</option>
+                                    <option value="台南市">台南市</option>
+                                    <option value="高雄市">高雄市</option>
+                                    <option value="屏東縣">屏東縣</option>
+                                </select>
+                            </form>
+                        </li>
+                    </ul>
+                    <div class="btn-choose">
+                        <p>Step2. 選擇其他條件</p>
+                        <form>
+                            <label for="spice">要找貓咪還是狗狗呢？</label>
+                            <select name="spice" id="spice">
+                                <option value="狗">狗</option>
+                                <option value="貓">貓</option>
+                            </select>
+                            <br>
+                            <br>
+                            <br>
+                            <label for="sex">喜歡男生還是女生呢？</label>
+                            <select name="sex" id="sex">
+                                <option value="F">母</option>
+                                <option value="M">公</option>
+                            </select>
+                            <br>
+                            <br>
+                            <br>
+                            <label for="size">喜歡哪種體型的毛小孩呢？</label>
+                            <select name="size" id="size">
+                                <option value="MINI">迷你型</option>
+                                <option value="SMALL">小型</option>
+                                <option value="MEDIUM">中型</option>
+                                <option value="BIG">大型</option>
+                            </select>
+                            <br>
+                            <br>
+                            <br>
+                        </form>
+                        <input type="submit" value="確認" id="btn" />
+                    </div>
+                </div>
+                <div class="content-show">
+                    <ul class="content-list"></ul>
+                </div>
+            </div>
+            <div class="footer"></div>
+        </div>
+        <script src="js/jquery-3.1.0.min.js"></script>
+        <script src="js/all.js"></script>
+        <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+</body>
+
+</html>
